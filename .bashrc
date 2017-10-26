@@ -1,4 +1,8 @@
 #---------------START OF MY CHANGES---------------
+
+# Check if you are in an interactive shell and disable XON/XOFF. Typing C-s searches forward through the history. 
+[[ $- == *i* ]] && stty -ixon
+
 # my changes:
 alias cls="clear"
 
