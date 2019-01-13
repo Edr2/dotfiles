@@ -143,3 +143,5 @@
 [filter "treatspaces"]
 	smudge = unexpand -t4
 	clean  = expand -t4
+[push]
+	default = simple

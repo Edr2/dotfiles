@@ -5,6 +5,8 @@
 
 # my changes:
 alias cls="clear"
+alias triller="cd ~/projects/TrillerSocial"
+alias upwork="cd ~/projects/upwork"
 
 
 parse_git_branch() {
@@ -142,3 +144,15 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/freeride/projects/upwork/google-cloud-sdk/path.bash.inc' ]; then source '/home/freeride/projects/upwork/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/freeride/projects/upwork/google-cloud-sdk/completion.bash.inc' ]; then source '/home/freeride/projects/upwork/google-cloud-sdk/completion.bash.inc'; fi
+
+###-tns-completion-start-###
+if [ -f /home/freeride/.tnsrc ]; then 
+    source /home/freeride/.tnsrc 
+fi
+###-tns-completion-end-###
