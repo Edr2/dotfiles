@@ -5,8 +5,6 @@
 
 # my changes:
 alias cls="clear"
-alias triller="cd ~/projects/TrillerSocial"
-alias upwork="cd ~/projects/upwork"
 
 
 parse_git_branch() {
