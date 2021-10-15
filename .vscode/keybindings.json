@@ -1,0 +1,30 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "workbench.action.terminal.focusPrevious"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "workbench.action.terminal.newWithCwd",
+    "args": {
+      "cwd": "${fileDirname}"
+    }
+  },
+  {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quit"
+  }
+]
