@@ -1,0 +1,80 @@
+{
+    "liveServer.settings.donotVerifyTags": true,
+    "python.jediEnabled": false,
+    "editor.minimap.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "files.autoSave": "off",
+    "remote.SSH.remotePlatform": {
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "black",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.titleBarStyle": "custom",
+    "python.languageServer": "Pylance",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "aws.profile": "profile:default",
+    "settingsSync.ignoredExtensions": [],
+    "local-history.path": ".vscode",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "jest.autoRun": false,
+    "python.defaultInterpreterPath": "/opt/venv/bin/python",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.automationShell.osx": "",
+    "terminal.integrated.profiles.windows": {
+        "GitBash": {
+          "source": "Git Bash",
+          "path": ["C:\\Program Files\\Git\\git-bash.exe"],
+          "icon": "terminal-bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "GitBash",
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "remote.SSH.configFile": "",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false
+}
